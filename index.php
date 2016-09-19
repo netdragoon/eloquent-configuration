@@ -4,6 +4,7 @@
     include "models/Credit.php";
 
 $credit = new Credit();
-$s = Credit::create(['description' =>'senha.com']);
+
+//$s = Credit::create(['description' =>'senha.com']);
 
 echo $credit->all()->toJson();
